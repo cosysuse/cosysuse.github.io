@@ -194,7 +194,6 @@ dist
 
 # vuepress v2.x temp and cache directory
 .temp
-.cache
 
 # Docusaurus cache and generated files
 .docusaurus
@@ -223,8 +222,6 @@ dist
 
 ### Vuejs template
 # Recommended template: Node.gitignore
-
-node_modules/
 dist/
 npm-debug.log
 yarn-error.log
