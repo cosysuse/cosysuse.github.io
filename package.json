@@ -1,0 +1,30 @@
+{
+  "name": "cosysuse.github.io",
+  "version": "1.0.0",
+  "description": "cosysuse",
+  "main": "vue.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cosysuse/cosysuse.github.io.git"
+  },
+  "keywords": [
+    "cosysuse"
+  ],
+  "author": "Norman",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cosysuse/cosysuse.github.io/issues"
+  },
+  "homepage": "https://github.com/cosysuse/cosysuse.github.io#readme",
+  "dependencies": {
+    "@vue/cli": "^5.0.8",
+    "execa": "^8.0.1"
+  },
+  "devDependencies": {
+    "execa": "^8.0.1"
+  },
+  "scripts": {
+    "deploy": "node scripts/gh-pages-deploy.js"
+  },
+  "type": "module"
+}
